@@ -1,6 +1,7 @@
 #!/bin/bash
 #instal nginx1.15.5
 #auth:ogy
+#自动安装: wget -q -O - https://raw.githubusercontent.com/ouguangyao/script/master/shell/Nginx1.15.5.Centos7.sh | bash
 
 #chcek status
 function check ()
