@@ -1,7 +1,7 @@
 #!/bin/bash
 # install.MySQL5.7.Centos7.sh
 # MySQL 5.7.22 安装脚本
-# 自动安装: wget -q -O - https://raw.githubusercontent.com/linuxhub/script/master/shell/install.MySQL5.7.Centos7.sh | bash
+# 自动安装: wget -q -O - https://raw.githubusercontent.com/ouguangyao/script/master/shell/install.MySQL5.7.Centos7.sh | bash
 
 
 # Check if user is root
