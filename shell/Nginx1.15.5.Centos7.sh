@@ -61,8 +61,8 @@ ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 
 #拷贝主配置文件
 mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.$(date +%F)
-wget https://raw.githubusercontent.com/linuxhub/AppConf/master/Nginx-PHP7.2017.11.20/nginx.conf -O /usr/local/nginx/conf/nginx.conf
-wget https://raw.githubusercontent.com/linuxhub/AppConf/master/Nginx-PHP7.2017.11.20/nginx -O /etc/init.d/nginx 
+wget https://raw.githubusercontent.com/ouguangyao/script/master/AppConf/nginx.conf -O /usr/local/nginx/conf/nginx.conf
+wget https://raw.githubusercontent.com/ouguangyao/script/master/AppConf/nginx -O /etc/init.d/nginx 
 
 #添加到系统服务开机自启
 chmod +x /etc/init.d/nginx
