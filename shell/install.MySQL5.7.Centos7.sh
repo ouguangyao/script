@@ -1,6 +1,6 @@
 #!/bin/bash
 # install.MySQL5.7.Centos7.sh
-# MySQL 5.7.22 安装脚本
+# MySQL 5.7.25 安装脚本
 # 自动安装: wget -q -O - https://raw.githubusercontent.com/ouguangyao/script/master/shell/install.MySQL5.7.Centos7.sh | bash
 
 
@@ -48,11 +48,11 @@ mv boost_1_67_0 /usr/local/boost
 
 # 下载
 cd $down_dir
-wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.22.tar.gz
+wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.25.tar.gz
 
 # 源码安装
-tar zxvf mysql-5.7.22.tar.gz
-cd mysql-5.7.22
+tar zxvf mysql-5.7.25.tar.gz
+cd mysql-5.7.25
 
 
 # -----------------------------
