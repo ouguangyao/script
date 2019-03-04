@@ -21,7 +21,7 @@ if [ $(id -u) != "0" ];then
 fi
 
 #安装组件
-yum -y install gcc gcc-c++ autoconf automake libtool make cmake wget
+yum -y install gcc gcc-c++ autoconf automake libtool make cmake wget net-tools
 yum -y install zlib zlib-devel openssl openssl-devel pcre-devel
 
 
