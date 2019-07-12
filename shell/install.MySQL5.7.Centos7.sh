@@ -42,9 +42,9 @@ yum -y install ncurses-devel bison openssl openssl-devel
 yum -y install gcc-c++ libstdc++-devel cmake autoconf
 
 cd $down_dir
-wget https://sourceforge.net/projects/boost/files/boost/1.67.0/boost_1_67_0.tar.gz
-tar zxvf boost_1_67_0.tar.gz
-mv boost_1_67_0 /usr/local/boost
+wget https://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.tar.gz
+mkdir /usr/local/boost
+cp boost_1_59_0.tar.gz /usr/local/boost/
 
 # 下载
 cd $down_dir
