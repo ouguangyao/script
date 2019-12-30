@@ -45,8 +45,8 @@ cd $down_dir
 wget http://nginx.org/download/nginx-1.15.5.tar.gz
 
 #添加程序运行用户
-groupadd www
-useradd -s /sbin/nologin -g www www
+groupadd -g 500 www
+useradd www -g www -u 500 -s /sbin/nologin
 
 #源码编译
 tar -zxvf nginx-1.15.5.tar.gz
